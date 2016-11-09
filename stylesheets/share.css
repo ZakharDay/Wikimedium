@@ -1,0 +1,9 @@
+.share {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  min-width: 768px;
+  padding: 20px;
+  text-align: right;
+}

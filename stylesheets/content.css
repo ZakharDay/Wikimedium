@@ -1,0 +1,127 @@
+article {
+  padding-bottom: 40px;
+}
+
+article a {
+  text-decoration: underline;
+}
+
+article > *:not(section) {
+  width: 728px;
+  margin: 0 auto;
+}
+
+article h1,
+article h2,
+article h3 {
+  font-family: 'PT Sans Caption', sans-serif;
+  font-weight: bold;
+}
+
+article h1 {
+  margin-top: 16px;
+  font-size: 40px;
+  line-height: 46px;
+}
+
+article h1 + p {
+  margin-top: 14px;
+  font-family: 'PT Sans Caption', sans-serif;
+  font-size: 22px;
+  line-height: 32px;
+  color: rgba(0, 0, 0, .4);
+}
+
+article h2 {
+  margin-top: 43px;
+  font-size: 32px;
+  line-height: 36px;
+}
+
+article h2 + p {
+  margin-top: 7px;
+}
+
+article h3 {
+  margin-top: 36px;
+  font-size: 28px;
+  line-height: 34px;
+}
+
+article h3 + p {
+  margin-top: 6px;
+}
+
+article p,
+article blockquote,
+article li {
+  font-size: 22px;
+  line-height: 34px;
+}
+
+article blockquote {
+  position: relative;
+  font-style: italic;
+}
+
+article blockquote::before {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 0;
+  left: -20px;
+  width: 3px;
+  height: 100%;
+  background-color: rgba(0,0,0,.8);
+}
+
+article p + p,
+article p + blockquote,
+article blockquote + p,
+article blockquote + blockquote {
+  margin-top: 29px;
+}
+
+article ul {
+  margin: 29px auto;
+  list-style-type: disc;
+}
+
+article li {
+  margin: 17px 0 17px 30px;
+}
+
+article > img,
+article > iframe {
+  display: block;
+  width: 1020px;
+  margin: 80px auto;
+}
+
+article img + h2,
+article iframe + h2 {
+  margin-top: -1px;
+}
+
+article img + p,
+article img + blockquote,
+article img + ul,
+article iframe + p,
+article iframe + blockquote,
+article iframe + ul {
+  margin-top: -3px;
+}
+
+article h2 + img,
+article h2 + iframe {
+  margin-top: 82px;
+}
+
+article h3 + img,
+article h3 + iframe {
+  margin-top: 81px;
+}
+
+article > iframe {
+  height: 574px;
+}

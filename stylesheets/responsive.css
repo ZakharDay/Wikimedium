@@ -1,0 +1,52 @@
+@media screen and (max-width: 1340px) {
+  .sidebar {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 1080px) {
+  .galleryNav div::before,
+  .galleryNav div::after {
+    background: white;
+  }
+}
+
+@media screen and (max-width: 1020px) {
+  article > img,
+  article > iframe,
+  .galleryRail img {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .galleryRail figure {
+    width: 768px;
+    min-width: 768px;
+  }
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (orientation: portrait) {
+  body {
+    min-width: 320px;
+  }
+
+  article > *:not(section) {
+    width: calc(100% - 40px);
+  }
+
+  .galleryRail figure {
+    width: 100%;
+    min-width: 100%;
+  }
+
+  article > iframe {
+    height: 190px;
+  }
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+  .sidebar {
+    display: none;
+  }
+}

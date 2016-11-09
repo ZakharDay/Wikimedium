@@ -1,0 +1,25 @@
+.menubar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 50px;
+  padding: 20px;
+}
+
+.logo {
+  display: block;
+  width: 180px;
+  height: 16px;
+  background-image: url(../images/logo.svg);
+}
+
+.about {
+  font-size: 14px;
+  line-height: 50px;
+  color: rgba(0,0,0,.2);
+  transition: all .1s ease;
+}
+
+.about:hover {
+  color: rgba(0,0,0,.4);
+}
