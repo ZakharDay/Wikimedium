@@ -4,6 +4,7 @@
   left: 20px;
   width: 300px;
   opacity: .1;
+  -webkit-transition: all .1s ease;
   transition: all .1s ease;
   z-index: 1;
 }
