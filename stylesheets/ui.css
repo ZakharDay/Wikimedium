@@ -1,0 +1,53 @@
+.btn {
+  display: block;
+  border-radius: 5px;
+  border-width: 1px;
+  border-style: solid;
+}
+
+.white {
+  background-color: white;
+  border-color: rgba(0,0,0,.2);
+  color: rgba(0,0,0,.6);
+}
+
+.green {
+  background-color: #64f364;
+  background-image: linear-gradient(to bottom, #64F364 2%, #2BD42B 7%, #01A401 95%, #006900 100%);
+  border-color: #00C000;
+  color: white;
+}
+
+.small {
+  width: 250px;
+  height: 40px;
+  line-height: 40px;
+  font-size: 15px;
+}
+
+.large {
+  width: 300px;
+  height: 50px;
+  line-height: 50px;
+  font-size: 17px;
+  font-family: 'PT Sans Caption', sans-serif;
+  font-weight: bold;
+}
+
+@media screen and (max-width: 1180px) and (min-width: 911px) {
+
+  .small {
+    width: 180px;
+    height: 30px;
+    line-height: 30px;
+    font-size: 11px;
+  }
+
+  .large {
+    width: 214px;
+    height: 36px;
+    line-height: 36px;
+    font-size: 12px;
+  }
+
+}

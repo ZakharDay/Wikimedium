@@ -18,10 +18,12 @@ body.posts {
   background-color: #FAFAFA;
 }
 
-body.posts .menubar {
+body.posts .menubar,
+body.landing .menubar {
   position: fixed;
   top: 0;
   left: 0;
+  z-index: 1;
   width: 100%;
   min-width: 768px;
   background-color: white;
