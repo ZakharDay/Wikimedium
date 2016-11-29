@@ -13,6 +13,7 @@
 
 .green {
   background-color: #64f364;
+  background-image: -webkit-linear-gradient(top, #64F364 2%, #2BD42B 7%, #01A401 95%, #006900 100%);
   background-image: linear-gradient(to bottom, #64F364 2%, #2BD42B 7%, #01A401 95%, #006900 100%);
   border-color: #00C000;
   color: white;
