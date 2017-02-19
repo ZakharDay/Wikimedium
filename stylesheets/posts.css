@@ -6,10 +6,17 @@
   display: block;
   width: 740px;
   margin: 10px auto;
-  padding: 20px;
+  padding: 0 20px 20px 20px;
   background-color: white;
   box-shadow: 0 1px 4px 0 rgba(0,0,0,.05);
   border-radius: 5px;
+}
+
+.postsFeed header {
+  height: 50px;
+  font-size: 14px;
+  line-height: 50px;
+  color: rgba(0,0,0,.4);
 }
 
 .postsFeed figure {
